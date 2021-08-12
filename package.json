@@ -5,7 +5,8 @@
   "description": "study projects",
   "author": "ithoangtan <ithoangtan@gmail.com>",
   "workspaces": [
-    "react-testing-library/*"
+    "react-testing-library/*",
+    "type-script/*"
   ],
   "dependencies": {
     "@babel/core": "7.12.3",
@@ -40,11 +41,13 @@
     "file-loader": "6.1.1",
     "fs-extra": "^9.0.1",
     "html-webpack-plugin": "4.5.0",
+    "husky": "^7.0.1",
     "identity-obj-proxy": "3.0.0",
     "jest": "26.6.0",
     "jest-circus": "26.6.0",
     "jest-resolve": "26.6.0",
     "jest-watch-typeahead": "0.6.1",
+    "lint-staged": "^11.1.2",
     "mini-css-extract-plugin": "0.11.3",
     "optimize-css-assets-webpack-plugin": "5.0.4",
     "pnp-webpack-plugin": "1.6.4",
@@ -53,12 +56,14 @@
     "postcss-normalize": "8.0.1",
     "postcss-preset-env": "6.7.0",
     "postcss-safe-parser": "5.0.2",
+    "prettier": "2.3.2",
     "prompts": "2.4.0",
     "react": "^17.0.2",
     "react-app-polyfill": "^2.0.0",
     "react-dev-utils": "^11.0.3",
     "react-dom": "^17.0.2",
     "react-refresh": "^0.8.3",
+    "react-router-dom": "^5.2.0",
     "resolve": "1.18.1",
     "resolve-url-loader": "^3.1.2",
     "sass-loader": "^10.0.5",
